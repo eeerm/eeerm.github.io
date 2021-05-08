@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  scrollbar-color: #fc46aa #fec5e5;
+}
+a:link {
+    color: mistyrose;
+}
+a:visited {
+    color: lightpink;
+}
+a:hover {
+    color: #fda1ca;
+    background-color: rgb(218, 86, 168);
+}
+a:active {
+    color: hotpink;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: pink;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h2 {
+    text-shadow: 0 1px 2px black;
+}
+header {
+    font-size: 24px;
+    text-shadow: -1px 1px 2px black;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    padding-left: 32px;
+}
+main {
+    height: 56em;
+}
+iframe {
+    width: 100%;
+    height: 480px;
+}
+video {
+    width: 100%;
+}
+.content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-column {
+    width: 75%;
+    float: left;
+}
+.side-column {
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+.half-column {
+    width: 50%;
+    float: left;
+}
+.third-column {
+    width: 33%;
+    float: left;
+}
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.card, .main-img {
+    padding: 20px;
+    margin-top: 20px;
+}
+.main-img, .side-img{
+    width: 100%;
+}
+.mainpage-card, .img-card {
+    height: 58em;
+}
+.subpage-card {
+    height: 20em;
+}
+.author-card {
+    height: 36.75em;
+}
+.img-card {
+    overflow-y: scroll;
+}
+.text-center {
+    text-align: center;
+}
+.image-with-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text-on-image-centered {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    text-shadow: 0 2px 2px black;
+}
+.margin-16 {
+    margin: 16px;
+}
+.margin-top-16 {
+    margin-top: 16px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.padding-20 {
+    padding: 20px;
+}
+.padding-32 {
+    padding: 32px;
+}
+.black {
+    background-color: black;
+}
+.hotpink {
+    background-color: hotpink;
+}
+.light-pink {
+    background-color: lightpink;
+}
+.mistyrose {
+    background-color: mistyrose;
+}
+.pink {
+    background-color: pink;
+}
+.white {
+    background-color: white;
+}
+.custompink1 {
+    background-color: #ea71c3;
+}
+.custompink2 {
+    background-color: #dC64b6;
+}
+.custompink3 {
+    background-color: #d056a8;
+}
+.custompink4 {
+    background-color: #c64f9f;
+}
+.custompink5 {
+    background-color: #bb3d92;
+}
+@media screen and (max-width: 900px) {
+    .main-column, .side-column {   
+        width: 100%;
+        padding: 0;
+    }
+    .mainpage-card {
+        height: 40em;
+    }
+    .subpage-card {
+        height:auto;
+    }
+    .author-card {
+        height: auto;
+    }
+}
