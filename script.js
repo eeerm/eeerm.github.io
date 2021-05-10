@@ -1,4 +1,3 @@
-console.log();
 let x = 0;
 $(document).ready(function () {
     function changeToCrimson() {
@@ -185,15 +184,15 @@ $(document).ready(function () {
         default:
             break;
     }
-    $("button:not(.slide-button)").hide().animate({right: "-=120px"});
+    $("button:not(.slide-button)").hide().animate({right: "-=225px"});
     $(".slide-button").click(function(e) {
             e.preventDefault();
             if (x % 2 == 0) {
-                $(this).animate({right: "+=120px"});
-                $("button:not(.slide-button)").show().animate({right: "+=120px"});
+                $(this).animate({right: "+=225px"});
+                $("button:not(.slide-button)").show().animate({right: "+=225px"});
             } else {
-                $(this).animate({right: "-=120px"});
-                $("button:not(.slide-button)").animate({right: "-=120px"}, function() {
+                $(this).animate({right: "-=225px"});
+                $("button:not(.slide-button)").animate({right: "-=225px"}, function() {
                     $(this).hide();
                 });
             }

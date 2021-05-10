@@ -57,8 +57,8 @@ video {
 button {
     position: absolute;
     right: 0%;
-    width: 40px;
-    height: 40px;
+    width: 75px;
+    height: 74px;
 }
 button:nth-child(1) {
     right: 0px;
@@ -67,60 +67,69 @@ button:nth-child(1) {
 }
 button:nth-child(2) {
     position: absolute;
-    right: 40px;
+    right: 75px;
     background-color: peru;
     border-color: peru;
 }
 button:nth-child(3){
-    right: 80px;
+    right: 150px;
     background-color: gray;
     border-color: gray;
 }
 button:nth-child(4) {
     right: 0px;
-    top: 40px;
+    top: 74px;
     background-color: forestgreen;
     border-color: forestgreen;
 }
 button:nth-child(5) {
-    right: 40px;
-    top: 40px;
+    right: 75px;
+    top: 74px;
     background-color: turquoise;
     border-color: turquoise;
 }
 button:nth-child(6) {
-    right: 80px;
-    top: 40px;
+    right: 150px;
+    top: 74px;
     background-color: dodgerblue;
     border-color: dodgerblue;
 }
 button:nth-child(7) {
-    right: 80px;
-    top: 80px;
+    right: 75px;
+    top: 148px;
     background-color: indigo;
     border-color: indigo;
 }
 button:nth-child(8) {
-    right: 40px;
-    top: 80px;
+    right: 150px;
+    top: 148px;
     background-color: #c64f9f;
     border-color: #c64f9f;
 }
 button:nth-child(9) {
     right: 0px;
-    top: 80px;
+    top: 148px;
     background-color: crimson;
     border-color: crimson;
+}
+.colormenu {
+    position: absolute;
+    right: 0%;
+    width: 225px;
+    height: 222px;
+    background-color: black;
 }
 .slide-button {
     color: lightgray;
     background-color: darkslategray;
     border-color: black;
     right: 0px;
-    width: 20px;
-    height: 120px;
+    width: 30px;
+    height: 222px;
     padding: 0px;
-    line-height: 22px;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .content {
