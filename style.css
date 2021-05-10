@@ -151,19 +151,19 @@ video {
 .white {
     background-color: white;
 }
-.custompink1 {
+.custom-colour-1 {
     background-color: #ea71c3;
 }
-.custompink2 {
+.custom-colour-2 {
     background-color: #dC64b6;
 }
-.custompink3 {
+.custom-colour-3 {
     background-color: #d056a8;
 }
-.custompink4 {
+.custom-colour-4 {
     background-color: #c64f9f;
 }
-.custompink5 {
+.custom-colour-5 {
     background-color: #bb3d92;
 }
 @media screen and (max-width: 900px) {
