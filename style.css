@@ -4,7 +4,7 @@
 }
 ::selection {
     background: mistyrose;
-    color: magenta;
+    color: darkslategray;
 }
 a:link {
     color: mistyrose;
@@ -17,11 +17,11 @@ a:hover {
     background-color: rgb(218, 86, 168);
 }
 a:active {
-    color: hotpink;
+    color: mistyrose;
 }
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: pink;
+    color: white;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -180,4 +180,72 @@ video {
     .author-card {
         height: auto;
     }
+}
+button {
+    position: absolute;
+    right: 0%;
+    width: 40px;
+    height: 40px;
+}
+button:nth-child(1) {
+    right: 0px;
+    background-color: orange;
+    border-color: orange;
+}
+button:nth-child(2) {
+    position: absolute;
+    right: 40px;
+    background-color: peru;
+    border-color: peru;
+}
+button:nth-child(3){
+    right: 80px;
+    background-color: gray;
+    border-color: gray;
+}
+button:nth-child(4) {
+    right: 0px;
+    top: 40px;
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+button:nth-child(5) {
+    right: 40px;
+    top: 40px;
+    background-color: turquoise;
+    border-color: turquoise;
+}
+button:nth-child(6) {
+    right: 80px;
+    top: 40px;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+button:nth-child(7) {
+    right: 80px;
+    top: 80px;
+    background-color: indigo;
+    border-color: indigo;
+}
+button:nth-child(8) {
+    right: 40px;
+    top: 80px;
+    background-color: #c64f9f;
+    border-color: #c64f9f;
+}
+button:nth-child(9) {
+    right: 0px;
+    top: 80px;
+    background-color: crimson;
+    border-color: crimson;
+}
+.slide-button {
+    color: lightgray;
+    background-color: darkslategray;
+    border-color: black;
+    right: 0px;
+    width: 20px;
+    height: 120px;
+    padding: 0px;
+    line-height: 22px;
 }
