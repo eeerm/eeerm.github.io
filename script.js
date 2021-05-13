@@ -1,4 +1,4 @@
-let x = 0;
+var x = 0;
 $(document).ready(function () {
     function changeToCrimson() {
         $(".custom-colour-1").css("background-color", "#b21e35");
@@ -31,7 +31,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "orange mistyrose");
     }
     function changeToBrown() {
@@ -48,7 +48,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "sienna mistyrose");
     }
     function changeToGreen() {
@@ -65,7 +65,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "forestgreen mistyrose");
     }
     function changeToTurquoise() {
@@ -82,7 +82,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "turquoise mistyrose");
     }
     function changeToBlue() {
@@ -99,7 +99,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "dodgerblue mistyrose");
     }
     function changeToGray() {
@@ -116,7 +116,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "gray mistyrose");
     }
     function changeToIndigo() {
@@ -133,7 +133,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "indigo mistyrose");
     }
     function changeToPink() {
@@ -150,7 +150,7 @@ $(document).ready(function () {
             function() {
                 $(this).css("background-color", "");
             }
-        )
+        );
         $("*").css("scrollbar-color", "#fc46aa #fec5e5");
     }
     switch(document.cookie) {
