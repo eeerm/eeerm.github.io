@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: lightgray;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    --btnwh: 6.7vw;
+    width: var(--btnwh);
+    height: var(--btnwh);
+    margin: 1px;
+    color: lightgray;
+    background-color: black;
+    border: .42vw solid lightgray;
+    border-radius: 2vw;
+    font: bold 3vw 'DejaVu Sans Mono', monospace;
+}
+.btn:active:hover {
+    color: #2e2e2e;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+.text {
+    font: normal 3vw 'DejaVu Sans Mono', monospace;
+    text-align: center;
+    margin: 0 0 1vw 0;
+}
+.gallows {
+    width: 50%;
+    float: left;
+}
+.keyboard {
+    width: 50%;
+    float:left;
+    font: normal 4vw 'DejaVu Sans Mono', monospace;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.reset {
+    color: green;
+    cursor: pointer;
+}
+.reset:hover {
+    color: lightgray;
+}
