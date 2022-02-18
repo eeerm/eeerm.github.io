@@ -27,7 +27,7 @@ body {
 }
 
 .text {
-    font: normal 3vw 'DejaVu Sans Mono', monospace;
+    font: normal 64px 'DejaVu Sans Mono', monospace;
     text-align: center;
     margin: 0 0 1vw 0;
 }
@@ -52,4 +52,19 @@ img {
 }
 .reset:hover {
     color: lightgray;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        overflow: scroll;
+    }
+    .gallows, .keyboard {
+        width: 100%;
+    }
+    .btn {
+        height: 200px;
+        width: 200px;
+        font-size: 4vh;
+    }
 }
