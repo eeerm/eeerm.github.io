@@ -5,16 +5,21 @@ body {
     margin: 0;
 }
 
+#container {
+    width: 980px;
+    margin:auto;
+}
+
 .btn {
-    --btnwh: 6.7vw;
+    --btnwh: 65px;
     width: var(--btnwh);
     height: var(--btnwh);
     margin: 1px;
     color: lightgray;
     background-color: black;
-    border: .42vw solid lightgray;
-    border-radius: 2vw;
-    font: bold 3vw 'DejaVu Sans Mono', monospace;
+    border: 6px solid lightgray;
+    border-radius: 25px;
+    font: bold 32px 'DejaVu Sans Mono', monospace;
 }
 .btn:active:hover {
     color: #2e2e2e;
@@ -29,7 +34,7 @@ body {
 .text {
     font: normal 64px 'DejaVu Sans Mono', monospace;
     text-align: center;
-    margin: 0 0 1vw 0;
+    margin: 32px 0 32px 0;
 }
 .gallows {
     width: 50%;
@@ -38,7 +43,7 @@ body {
 .keyboard {
     width: 50%;
     float:left;
-    font: normal 4vw 'DejaVu Sans Mono', monospace;
+    font: normal 48px 'DejaVu Sans Mono', monospace;
     text-align: center;
 }
 
@@ -55,16 +60,18 @@ img {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     body {
         overflow: scroll;
+    }
+    #container {
+        width: auto;
     }
     .gallows, .keyboard {
         width: 100%;
     }
     .btn {
-        height: 200px;
-        width: 200px;
-        font-size: 4vh;
+        height: 60px;
+        width: 60px;
     }
 }
