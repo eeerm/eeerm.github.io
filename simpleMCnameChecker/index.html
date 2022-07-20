@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./handle.js" defer></script>
+    <script src="./namecheck.js" defer></script>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #root {
+      font-family: sans-serif;
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+    .available {
+      color: green;
+    }
+    .unavailable {
+      color: red;
+    }
+    table,
+    td,
+    th {
+      border-spacing: 0;
+      border: 1px solid black;
+    }
+    td,
+    th {
+      width: 1%;
+      text-align: center;
+    }
+
+    #input {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 1rem auto;
+    }
+    input {
+      width: 50%;
+      padding: 1rem;
+      border-radius: none;
+    }
+    button {
+      width: 50%;
+      padding: 1rem;
+      border: none;
+      border-radius: none;
+      cursor: pointer;
+    }
+    td.info {
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div id="root">loading...</div>
+    <fieldset id="input">
+      <legend>Add a new name</legend>
+      <input type="text" placeholder="New name" />
+      <button>Add</button>
+    </fieldset>
+  </body>
+</html>
